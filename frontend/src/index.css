@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,600;1,400&display=swap");
+
+#root {
+  height: "100%";
+  width: "100%";
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Lato";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: "100%";
+  width: "100%";
+  display: "inline-block";
+}
+
+body > * {
+  flex-shrink: 0;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+p {
+  font-size: "12";
+}
